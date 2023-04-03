@@ -2,4 +2,6 @@ ano = int(input(" "))
 idade = int(input(" "))
 outro = int(input(" "))
 nome = input(" ")
-print(nome + ", no ano de " + str(outro) + " você terá 28 anos")
+novaIdade = ( ano - outro) + idade
+print(nome + ", no ano de " + str(outro) + " você terá " + novaIdade + " anos")
+
