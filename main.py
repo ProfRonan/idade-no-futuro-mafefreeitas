@@ -1,0 +1,5 @@
+ano = int(input("digite o ano atual:"))
+idade = int(input("digite sua idade:"))
+outro = int(input("digite outro ano:"))
+nome = input("digite seu nome:")
+print(nome + ", no ano de " + str(outro) + " você terá 28 anos")
